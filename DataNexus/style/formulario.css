@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-image: url(/img/fondosPantalla/fondoApi2.png);
+    height: 500px;
+    overflow: hidden;
+}
+
+/*Estilos del header*/
+
+
+#pokeball {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 210px;
+    left: 50px;
+
+}
+
+header{
+    height: 145px;
+}
+
+#navFormulario{
+    width: 100%;
+    height: 150px;
+}
+
+
+h1 {
+    width: 99.9%;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 0 10px rgb(21, 186, 211);
+    font-family: "Bungee Shade", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position: relative;
+    bottom: 150px;
+}
+
+
+/*Estilos fotos pequeÃ±as*/
+#mud {
+    position: relative;
+    left: 160px;
+    width: 200px;
+}
+
+#pika {
+    position: relative;
+    margin-left: 80%;
+    width: 200px;
+    top: 20px;
+}
+
+/*Estilos del formulario*/
+#formulario {
+    width: 70%;
+    height: 250px;
+    background-color: #ffffff;
+    margin-left: 15%;
+    text-align: center;
+    font-family: 'Segoe UI';
+    height: 450px;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+#formulario h2{
+    color: rgb(63, 92, 63);
+    font-size: 30px;
+    margin-top: 2%;
+}
+#formulario img{
+    margin-top: 15px;
+}
+#pre {
+    /*Pregunta*/
+    width: 600px;
+    margin-top: 2%;
+    margin-left: 150px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-family: "Audiowide", sans-serif;
+}
+
+
+
+#respuesta1,
+#respuesta2,
+#respuesta3 {
+    /*Input de la pregunta*/
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color:#57d8ff;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+}
+
+/*Estilos de los botones*/
+.botones {
+    /*Div que contiene a los botones*/
+   position: relative;
+   bottom: 115px;
+    width: 100%;
+    text-align: center;
+    right: 8px;
+}
+
+#btnComprobar,
+#volver {
+    /*los dos botones*/
+    margin-left: 15px;
+    margin-top: 1%;
+    width: 160px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 3%;
+    border: 2px solid#000000;
+    background-color: rgb(255, 255, 255);
+    font-family: "Audiowide", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: 0.2s;
+}
+
+#btnComprobar:active {
+    box-shadow: none;
+    transition: 0.2s;
+}
+
+#btnComprobar:hover,
+#volver:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/*Estilos resultado*/
+/* #resultado {
+    text-align: center;
+    width: 60%;
+    height: 300px;
+    margin-left: 10%;
+    border: 2px solid black;
+    position: fixed;
+    z-index: 130;
+    top: 28%;
+    left: 10%;
+    background-color: #000000;
+    border-radius: 10px;
+   
+} */
+
+#resultado h2 {
+    font-size: 40px; 
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
